@@ -2,9 +2,9 @@
 
 # Práctica 3: Modelado y control del sistema musculoesquelético
 
-## Información de la estudiante
+## Información del estudiante
 
-Nombres y Apellidos [No. Control]; correo institucional
+Ibarra Monroy Ivana Valeria [23210709]; l23210709@tectijuana.edu.mx
 
 Modelado de Sistemas Fisiológicos
 
