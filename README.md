@@ -144,8 +144,6 @@ $$
 | Compliancia mecánica | Capacitancia $C$ |
 | Masa, cuando exista | Inductancia $L$ |
 
-**Importante:** la topología puede cambiar durante la conversión: elementos mecánicos en paralelo pueden corresponder a elementos eléctricos en serie, y viceversa. Se deben identificar primero los desplazamientos y la referencia mecánica antes de conectar el circuito en Simscape.
-
 <a id="parámetros-de-control-y-caso"></a>
 
 ##  Parámetros de control y caso
