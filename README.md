@@ -201,7 +201,33 @@ $$
 $$
 G_{\mathrm{control}}(s),\qquad G_{\mathrm{caso}}(s),
 $$
+<p align="justify">De acuerdo con el desarrollo matemático por superposición, la función de transferencia obtenida para la fuerza de salida es:</p>
 
+$$
+\boxed{
+G(s)=\frac{F_s(s)}{F(s)}=
+\frac{C_s R s+1-\alpha}
+{R\left((C_p+C_s)s+1\right)}
+}
+$$
+
+<p align="justify">Sustituyendo los parámetros correspondientes a cada condición, se obtienen las siguientes funciones de transferencia:</p>
+
+### Control (sano)
+
+$$
+G_{\mathrm{control}}(s)=
+\frac{0.001s+0.75}{0.011s+100}
+$$
+
+### Caso (atrofia simulada)
+
+$$
+G_{\mathrm{caso}}(s)=
+\frac{0.1s+0.75}{1.1s+10000}
+$$
+
+<p align="justify">Estas funciones permiten analizar y comparar el comportamiento dinámico de ambas condiciones mediante sus polos, estabilidad y respuestas temporales.</p>
 <p align="justify">utilizando los parámetros correspondientes. Posteriormente se calculan los polos de ambas funciones y se analiza su ubicación en el plano complejo. También se estudia el error en estado estacionario ante una entrada apropiada y el efecto de aumentar $R$.</p>
 
 <a id="condiciones-de-simulación"></a>
