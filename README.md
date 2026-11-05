@@ -6,9 +6,6 @@
 # PRÁCTICA 3 | MSFP3
 ## Modelado y control del sistema musculoesquelético
 
-
-**Modelo mecánico simplificado · Analogía electromecánica · Control PID**
-
 **Tecnológico Nacional de México · Instituto Tecnológico de Tijuana**  
 **Ingeniería Biomédica | Modelado de Sistemas Fisiológicos**
 
