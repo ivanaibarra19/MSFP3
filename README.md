@@ -210,8 +210,6 @@ $$
 
 <p align="justify">utilizando los parámetros correspondientes. Posteriormente se calculan los polos de ambas funciones y se analiza su ubicación en el plano complejo. También se estudia el error en estado estacionario ante una entrada apropiada y el efecto de aumentar $R$.</p>
 
-> **Pendiente:** incorporar las funciones de transferencia desarrolladas y sus polos cuando se haya verificado el circuito equivalente. El instructivo mostrado no proporciona sus coeficientes finales.
-
 <a id="condiciones-de-simulación"></a>
 
 ##  Condiciones de simulación
