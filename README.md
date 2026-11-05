@@ -188,7 +188,7 @@ $$
 
 <a id="función-de-transferencia-y-estabilidad"></a>
 
-##  Función de transferencia y estabilidad
+##  Función de transferencia
 
 <p align="justify">Con condiciones iniciales nulas, la práctica solicita obtener la relación entre la fuerza de entrada y el desplazamiento de salida:</p>
 
@@ -213,14 +213,14 @@ $$
 
 <p align="justify">Sustituyendo los parámetros correspondientes a cada condición, se obtienen las siguientes funciones de transferencia:</p>
 
-### Control (sano)
+### Control 
 
 $$
 G_{\mathrm{control}}(s)=
 \frac{0.001s+0.75}{0.011s+100}
 $$
 
-### Caso (atrofia simulada)
+### Caso 
 
 $$
 G_{\mathrm{caso}}(s)=
