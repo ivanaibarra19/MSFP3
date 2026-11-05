@@ -299,7 +299,7 @@ $$
 
 <a id="implementación-en-python"></a>
 
-## 🐍 Implementación en Python
+##  Implementación en Python
 
 <p align="justify">En **Visual Studio Code** se implementarán las funciones de transferencia del control y del caso, se calcularán las respuestas al impulso con las mismas condiciones de MATLAB/Simulink y se incorporarán las ganancias $k_P$, $k_I$ y $k_D$ obtenidas con **Tune**.</p>
 
@@ -341,7 +341,7 @@ $$
 | Desplazamiento | $x(t)$, $x_1(t)$ | Carga eléctrica análoga |
 | Fuerza transmitida | $F(t)$ | Voltaje equivalente |
 
-<img width="720" height="504" alt="image" src="https://github.com/user-attachments/assets/99a0cc78-05db-4836-8263-03136cd6f8d8" />
+<img width="720" height="504" alt="image" src="https://github.com/user-attachments/assets/c0c9a1b9-ab7c-43da-b55a-40611a718666" />
 
 <a id="actividades-y-evidencias"></a>
 
