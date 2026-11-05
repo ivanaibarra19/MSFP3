@@ -184,7 +184,6 @@ V_R(t)=R\,I_R(t),\qquad
 I_C(t)=C\frac{dV_C(t)}{dt}.
 $$
 
-**Pendiente de documentar:** ecuaciones completas de equilibrio, elección de estados y deducción a partir del circuito eléctrico efectivamente construido. No se asigna una ecuación global sin verificar la topología y la variable de salida.
 
 <a id="función-de-transferencia-y-estabilidad"></a>
 
@@ -294,11 +293,7 @@ $$
 
 <p align="justify">La herramienta **Tune** del bloque `PID Controller` de Simulink permite obtener las ganancias del controlador para el caso. Se busca una respuesta estable y una reducción del error frente al control sano.</p>
 
-| Ganancia | Valor obtenido |
-|:--|:--|
-| $k_P$ | Pendiente de sintonización |
-| $k_I$ | Pendiente de sintonización |
-| $k_D$ | Pendiente de sintonización |
+
 
 ### Comparación en lazo cerrado
 
