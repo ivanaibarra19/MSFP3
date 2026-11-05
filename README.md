@@ -29,7 +29,6 @@
 | **Institución** | Tecnológico Nacional de México / Instituto Tecnológico de Tijuana |
 | **Departamento** | Ingeniería Eléctrica y Electrónica |
 
-> **Nota:** El identificador «MSFP3 · Práctica 3» es una propuesta de organización del repositorio; en el instructivo la actividad corresponde a la **sección 5.5**.
 
 ##  Contenido
 
