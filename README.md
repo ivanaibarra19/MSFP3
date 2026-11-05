@@ -128,9 +128,6 @@ $$
 \frac{d}{dt}\left[x(t)-x_1(t)\right].
 $$
 
-> **Figura del modelo:** incorporar aquí la imagen del modelo mecánico proporcionada en la práctica, una vez guardada en `imagenes/modelo_mecanico.png`.
->
-> `![Modelo mecánico musculoesquelético](imagenes/modelo_mecanico.png)`
 
 <a id="analogía-electromecánica"></a>
 
