@@ -66,7 +66,7 @@
 
 <a id="palabras-clave"></a>
 
-## 🔎 Palabras clave
+##  Palabras clave
 
 **Sistema musculoesquelético; modelo mecánico; viscoelasticidad; analogía fuerza–voltaje; control PID; Simulink; Simscape Electrical; Python; atrofia muscular.**
 
@@ -256,7 +256,7 @@ $$
 
 <a id="controlador-pid-y-lazo-cerrado"></a>
 
-## 🎛️ Controlador PID y lazo cerrado
+##  Controlador PID y lazo cerrado
 
 ### Error de seguimiento
 
@@ -307,7 +307,7 @@ $$
 
 <a id="verificación-cruzada"></a>
 
-## 🔍 Verificación cruzada
+##  Verificación cruzada
 
 | Representación | Herramienta | Comprobación |
 |:--|:--|:--|
@@ -321,7 +321,7 @@ $$
 
 <a id="diagrama-biológico"></a>
 
-## 🦴 Diagrama biológico
+##  Diagrama biológico
 
 <p align="justify">Se elaborará en **BioRender** un diagrama que identifique como mínimo:</p>
 
@@ -349,35 +349,35 @@ $$
 
 ### Etapa 1 · Modelo y análisis
 
-- [ ] Identificar los elementos y desplazamientos del modelo mecánico.
-- [ ] Construir y explicar la analogía electromecánica.
-- [ ] Formular las ecuaciones del sistema y verificar el circuito.
-- [ ] Obtener las funciones de transferencia del control y del caso.
-- [ ] Calcular polos, estabilidad y error en estado estacionario.
+-  Identificar los elementos y desplazamientos del modelo mecánico.
+-  Construir y explicar la analogía electromecánica.
+-  Formular las ecuaciones del sistema y verificar el circuito.
+-  Obtener las funciones de transferencia del control y del caso.
+-  Calcular polos, estabilidad y error en estado estacionario.
 
 ### Etapa 2 · Simulación
 
-- [ ] Construir las ecuaciones en Simulink.
-- [ ] Implementar las funciones de transferencia en Simulink.
-- [ ] Construir el circuito en Simscape Electrical.
-- [ ] Simular la respuesta al impulso entre $0$ y $10$ s.
-- [ ] Comparar control y caso en lazo abierto.
+-  Construir las ecuaciones en Simulink.
+-  Implementar las funciones de transferencia en Simulink.
+-  Construir el circuito en Simscape Electrical.
+-  Simular la respuesta al impulso entre $0$ y $10$ s.
+-  Comparar control y caso en lazo abierto.
 
 ### Etapa 3 · Control y verificación
 
-- [ ] Incorporar el PID al caso y sintonizarlo con Tune.
-- [ ] Registrar $k_P$, $k_I$ y $k_D$ con evidencia.
-- [ ] Comparar control, caso y caso con PID.
-- [ ] Desarrollar el cuaderno MATLAB y exportar gráficas PDF.
-- [ ] Implementar las respuestas en Python.
-- [ ] Verificar los cinco métodos.
+-  Incorporar el PID al caso y sintonizarlo con Tune.
+-  Registrar $k_P$, $k_I$ y $k_D$ con evidencia.
+-  Comparar control, caso y caso con PID.
+-  Desarrollar el cuaderno MATLAB y exportar gráficas PDF.
+-  Implementar las respuestas en Python.
+-  Verificar los cinco métodos.
 
 ### Etapa 4 · Documentación
 
-- [ ] Elaborar el diagrama biológico en BioRender.
-- [ ] Incorporar capturas, archivos y resultados.
-- [ ] Completar discusión y conclusiones propias.
-- [ ] Incluir `README.md` y `CITATION.cff`.
+-  Elaborar el diagrama biológico en BioRender.
+-  Incorporar capturas, archivos y resultados.
+-  Completar discusión y conclusiones propias.
+-  Incluir `README.md` y `CITATION.cff`.
 
 <a id="organización-del-repositorio"></a>
 
