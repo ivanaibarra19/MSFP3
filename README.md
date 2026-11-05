@@ -1,14 +1,13 @@
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=ivanaibarra19/MSFP3)
+
 <div align="center">
 
 
-# 🦾 PRÁCTICA 3 | MSFP3
+# PRÁCTICA 3 | MSFP3
 ## Modelado y control del sistema musculoesquelético
 
-*Práctica 5.5 del manual de laboratorio*
 
 **Modelo mecánico simplificado · Analogía electromecánica · Control PID**
-
-![MATLAB](https://img.shields.io/badge/MATLAB-Simulink-0076A8?style=flat-square) ![Python](https://img.shields.io/badge/Python-Visual%20Studio%20Code-3776AB?style=flat-square) ![Simscape](https://img.shields.io/badge/Simscape-Electrical-667788?style=flat-square) ![Modalidad](https://img.shields.io/badge/Modalidad-in%20silico-217346?style=flat-square)
 
 **Tecnológico Nacional de México · Instituto Tecnológico de Tijuana**  
 **Ingeniería Biomédica | Modelado de Sistemas Fisiológicos**
@@ -17,23 +16,22 @@
 
 ---
 
-## 📋 Datos académicos
+##  Datos académicos
 
 | Campo | Información |
 |:--|:--|
-| **Estudiante** | María Luisa Michelle Muñoz Meneses |
-| **Número de control** | 23210714 |
-| **Correo institucional** | l23210714@tectijuana.edu.mx |
+| **Estudiante** | Ibarra Monroy Ivana Valeria |
+| **Número de control** | 23210709 |
+| **Correo institucional** | l23210724@tectijuana.edu.mx |
 | **Asignatura** | Modelado de Sistemas Fisiológicos |
 | **Carrera** | Ingeniería Biomédica |
 | **Docente** | Dr. Paul Antonio Valle Trujillo |
 | **Institución** | Tecnológico Nacional de México / Instituto Tecnológico de Tijuana |
 | **Departamento** | Ingeniería Eléctrica y Electrónica |
-| **Modalidad** | Simulación *in silico* |
 
 > **Nota:** El identificador «MSFP3 · Práctica 3» es una propuesta de organización del repositorio; en el instructivo la actividad corresponde a la **sección 5.5**.
 
-## 🧭 Contenido
+##  Contenido
 
 1. [Resumen](#resumen)
 2. [Palabras clave](#palabras-clave)
@@ -52,16 +50,15 @@
 15. [Verificación cruzada](#verificación-cruzada)
 16. [Diagrama biológico](#diagrama-biológico)
 17. [Actividades y evidencias](#actividades-y-evidencias)
-18. [Organización del repositorio](#organización-del-repositorio)
-19. [Resultados y discusión](#resultados-y-discusión)
-20. [Conclusiones](#conclusiones)
-21. [Bibliografía](#bibliografía)
+18. [Resultados y discusión](#resultados-y-discusión)
+19. [Conclusiones](#conclusiones)
+20. [Bibliografía](#bibliografía)
 
 ---
 
 <a id="resumen"></a>
 
-## 📖 Resumen
+##  Resumen
 
 <p align="justify">Esta práctica analiza el comportamiento dinámico de un modelo simplificado del **sistema musculoesquelético**, formado por un elemento contráctil activo, un amortiguador viscoso y dos elementos elásticos. Se estudian dos condiciones: un individuo sano (**control**) y un caso simulado de **atrofia muscular** (**caso**). La diferencia entre ambos se representa modificando la resistencia del circuito eléctrico equivalente, manteniendo los demás parámetros constantes.</p>
 
@@ -75,7 +72,7 @@
 
 <a id="competencia-y-objetivos"></a>
 
-## 🎯 Competencia y objetivos
+##  Competencia y objetivos
 
 ### Competencia a desarrollar
 
@@ -97,7 +94,7 @@
 
 <a id="introducción"></a>
 
-## 🧠 Introducción
+##  Introducción
 
 <p align="justify">Las propiedades mecánicas de músculos y tendones pueden representarse de forma simplificada mediante elementos contráctiles, resortes y amortiguadores. Los resortes modelan la respuesta elástica ante la deformación, mientras que los amortiguadores representan la oposición viscosa al movimiento. Este enfoque permite relacionar la fuerza aplicada, los desplazamientos y las velocidades.</p>
 
@@ -105,7 +102,7 @@
 
 <a id="modelo-mecánico"></a>
 
-## ⚙️ Modelo mecánico
+##  Modelo mecánico
 
 ### Elementos y variables
 
@@ -138,7 +135,7 @@ $$
 
 <a id="analogía-electromecánica"></a>
 
-## 🔌 Analogía electromecánica
+##  Analogía electromecánica
 
 <p align="justify">Se emplea la analogía **fuerza–voltaje**. En esta representación, las magnitudes mecánicas se corresponden con magnitudes eléctricas de la siguiente manera:</p>
 
@@ -155,7 +152,7 @@ $$
 
 <a id="parámetros-de-control-y-caso"></a>
 
-## 📐 Parámetros de control y caso
+##  Parámetros de control y caso
 
 <p align="justify">Los valores suministrados para el **circuito eléctrico equivalente** son:</p>
 
@@ -171,7 +168,7 @@ $$
 
 <a id="formulación-matemática"></a>
 
-## ✏️ Formulación matemática
+## Formulación matemática
 
 <p align="justify">Las relaciones constitutivas del modelo mecánico son:</p>
 
@@ -201,7 +198,7 @@ $$
 
 <a id="función-de-transferencia-y-estabilidad"></a>
 
-## 📈 Función de transferencia y estabilidad
+##  Función de transferencia y estabilidad
 
 <p align="justify">Con condiciones iniciales nulas, la práctica solicita obtener la relación entre la fuerza de entrada y el desplazamiento de salida:</p>
 
@@ -221,7 +218,7 @@ $$
 
 <a id="condiciones-de-simulación"></a>
 
-## ⏱️ Condiciones de simulación
+##  Condiciones de simulación
 
 | Condición | Configuración |
 |:--|:--|
@@ -231,11 +228,10 @@ $$
 | Referencia del PID | Respuesta del individuo sano |
 | Comparación | Mismas condiciones iniciales y de simulación |
 
-**Precaución de unidades:** la tabla del instructivo da $1\,\mathrm{V}$ como valor eléctrico equivalente de entrada, mientras que el análisis temporal solicita un **impulso unitario**. No se debe confundir un impulso ideal con un escalón constante de $1\,\mathrm{V}$; registrar la realización utilizada en cada herramienta.
 
 <a id="implementación-en-matlab-y-simulink"></a>
 
-## 💻 Implementación en MATLAB y Simulink
+##  Implementación en MATLAB y Simulink
 
 <p align="justify">Se requieren tres representaciones para **ambas condiciones**:</p>
 
@@ -247,7 +243,7 @@ $$
 
 <a id="respuesta-en-lazo-abierto"></a>
 
-## 📉 Respuesta en lazo abierto
+##  Respuesta en lazo abierto
 
 <p align="justify">Aplicar la misma entrada impulso al control y al caso, sin controlador PID, y comparar:</p>
 
@@ -257,7 +253,6 @@ $$
 
 <p align="justify">Analizar amplitud, velocidad de respuesta, amortiguamiento y diferencias temporales. Explicar cómo el incremento de $R$ afecta el comportamiento del sistema.</p>
 
-**Evidencia por agregar:** `resultados/lazo_abierto_matlab.pdf`.
 
 <a id="controlador-pid-y-lazo-cerrado"></a>
 
@@ -301,7 +296,6 @@ x_{\mathrm{caso}}(t),\qquad
 x_{\mathrm{PID}}(t).
 $$
 
-<p align="justify">El análisis debe describir el efecto del PID sobre amplitud, rapidez, amortiguamiento y seguimiento. **Evidencia por agregar:** `resultados/lazo_cerrado_matlab.pdf` y `imagenes/sintonizacion_pid.png`.</p>
 
 <a id="implementación-en-python"></a>
 
@@ -347,11 +341,11 @@ $$
 | Desplazamiento | $x(t)$, $x_1(t)$ | Carga eléctrica análoga |
 | Fuerza transmitida | $F(t)$ | Voltaje equivalente |
 
-**Evidencia por agregar:** `imagenes/diagrama_biologico.png`.
+<img width="720" height="504" alt="image" src="https://github.com/user-attachments/assets/99a0cc78-05db-4836-8263-03136cd6f8d8" />
 
 <a id="actividades-y-evidencias"></a>
 
-## 📁 Actividades y evidencias
+##  Actividades y evidencias
 
 ### Etapa 1 · Modelo y análisis
 
@@ -387,35 +381,9 @@ $$
 
 <a id="organización-del-repositorio"></a>
 
-## 🗂️ Organización del repositorio
 
-<p align="justify">La siguiente estructura es **sugerida**; adaptar los nombres a los archivos reales:</p>
 
-```text
-.
-├── README.md
-├── CITATION.cff
-├── matlab/
-│   └── practica_musculoesqueletica.mlx
-├── simulink/
-│   └── sistema_musculoesqueletico.slx
-├── python/
-│   └── sistema_musculoesqueletico.py
-├── resultados/
-│   ├── lazo_abierto_matlab.pdf
-│   ├── lazo_cerrado_matlab.pdf
-│   ├── lazo_abierto_python.pdf
-│   └── lazo_cerrado_python.pdf
-└── imagenes/
-    ├── modelo_mecanico.png
-    ├── circuito_equivalente.png
-    ├── sintonizacion_pid.png
-    └── diagrama_biologico.png
-```
-
-<a id="resultados-y-discusión"></a>
-
-## 📊 Resultados y discusión
+##  Resultados y discusión
 
 **Por completar con las simulaciones propias.** Registrar las funciones de transferencia verificadas, los polos, las ganancias PID y las figuras de control, caso y sistema controlado. La discusión deberá indicar si las diferentes implementaciones producen respuestas consistentes y explicar cualquier diferencia observada.
 
@@ -432,7 +400,7 @@ $$
 
 <a id="conclusiones"></a>
 
-## ✅ Conclusiones
+##  Conclusiones
 
 <p align="justify">El modelo mecánico simplificado permite estudiar cómo interactúan los componentes activos, viscosos y elásticos del sistema musculoesquelético. La analogía fuerza–voltaje ofrece una representación eléctrica que facilita la formulación matemática y la simulación de las respuestas dinámicas. En esta práctica, la modificación de la resistencia equivalente distingue el control del caso simulado de atrofia muscular.</p>
 
@@ -440,7 +408,7 @@ $$
 
 <a id="bibliografía"></a>
 
-## 📚 Bibliografía
+##  Bibliografía
 
 1. M. C. Khoo, *Physiological Control Systems: Analysis, Simulation, and Estimation*, 2.ª ed., IEEE Press, 2018.
 2. F. C. Hoppensteadt y C. S. Peskin, *Modeling and Simulation in Medicine and the Life Sciences*, Springer.
