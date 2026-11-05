@@ -49,9 +49,8 @@
 15. [Verificación cruzada](#verificación-cruzada)
 16. [Diagrama biológico](#diagrama-biológico)
 17. [Actividades y evidencias](#actividades-y-evidencias)
-18. [Resultados y discusión](#resultados-y-discusión)
-19. [Conclusiones](#conclusiones)
-20. [Bibliografía](#bibliografía)
+18. [Conclusiones](#conclusiones)
+19. [Bibliografía](#bibliografía)
 
 ---
 
@@ -373,22 +372,6 @@ $$
 
 <a id="organización-del-repositorio"></a>
 
-
-
-##  Resultados y discusión
-
-**Por completar con las simulaciones propias.** Registrar las funciones de transferencia verificadas, los polos, las ganancias PID y las figuras de control, caso y sistema controlado. La discusión deberá indicar si las diferentes implementaciones producen respuestas consistentes y explicar cualquier diferencia observada.
-
-| Aspecto | Resultado / evidencia |
-|:--|:--|
-| Función de transferencia del control | Pendiente |
-| Función de transferencia del caso | Pendiente |
-| Polos y estabilidad | Pendiente |
-| Respuesta al impulso en lazo abierto | Pendiente |
-| Ganancias del PID | Pendiente |
-| Respuesta en lazo cerrado | Pendiente |
-| Comparación MATLAB–Python–Simscape | Pendiente |
-| Diagrama biológico | Pendiente |
 
 <a id="conclusiones"></a>
 
